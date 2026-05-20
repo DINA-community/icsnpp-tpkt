@@ -21,11 +21,11 @@ zkg install https://github.com/DINA-community/icsnpp-tpkt
 
 If this package is installed from ZKG, it will be added to the available plugins. This can be tested by running `zeek -NN`. If installed correctly, users will see `ANALYZER_TPKT` under the list of plugins.
 
-If users have ZKG configured to load packages (see `@load packages` in the [ZKG Quickstart Guide](https://docs.zeek.org/projects/package-manager/en/stable/quickstart.html), this plugin and these scripts will automatically be loaded and ready to go.
+If users have ZKG configured to load packages (see `@load packages` in the [ZKG Quickstart Guide](https://docs.zeek.org/projects/package-manager/en/stable/quickstart.html)), this plugin and these scripts will automatically be loaded and ready to go.
 
 ## Logging
 
-One dataset is logged for each tcp connection containing the following fields. 
+One dataset is logged for each tcp connection containing the following fields.
 
 | Field             | Type      | Description                                                       |
 | ----------------- |-----------|-------------------------------------------------------------------|
