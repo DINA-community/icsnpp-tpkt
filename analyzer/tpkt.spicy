@@ -3,7 +3,7 @@ module tpkt;
 import spicy;
 
 public type Pdus = unit {
-    pdus: (Pdu &synchronize)[];
+    : (Pdu &synchronize)[];
 };
 
 type Pdu = unit {
